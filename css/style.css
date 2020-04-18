@@ -1,6 +1,26 @@
+/* @font-face {
+  font-family: "Monsterat";
+  src: url(./../fonts/Montserrat-Medium.ttf);
+  font-weight: normal;
+} */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+:root {
+  --main-font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
 .header-section {
   box-shadow: 0px -9px 10px 6px #888888;
 }
+/* button.navbar-toggler {
+  color: #aaa;
+  border: 1px solid;
+  background: #eee;
+} */
 
 .banner-section {
   background-image: url(https://img.freepik.com/free-vector/technology-banner-background-with-hexagonal-shapes-text-space_1017-22589.jpg);
@@ -9,6 +29,9 @@
   background-size: cover;
   background-position: right;
   color: #fff;
+}
+.banner-text {
+  max-width: 600px;
 }
 .banner-text h6 {
   color: aqua;
