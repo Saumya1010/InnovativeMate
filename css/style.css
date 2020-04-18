@@ -1,0 +1,73 @@
+.header-section {
+  box-shadow: 0px -9px 10px 6px #888888;
+}
+
+.banner-section {
+  background-image: url(https://img.freepik.com/free-vector/technology-banner-background-with-hexagonal-shapes-text-space_1017-22589.jpg);
+  padding: 150px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+}
+.banner-text h6 {
+  color: aqua;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.banner-text h1 {
+  font-size: 46px;
+  line-height: 1.2;
+  margin: 0;
+}
+.banner-text h1 span {
+  color: aqua;
+}
+
+.service-section {
+  padding: 70px 0 120px;
+  background-color: #eee;
+}
+.service-section .section-title {
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  color: #0d8ce6;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.section-title p {
+  color: #444;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+.service-image img {
+  height: 60px;
+}
+.service-block-wrapper h6 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 15px 0 5px;
+}
+.service-block-wrapper p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+.service-block-wrapper .service-block {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0px 2px 15px -3px #888;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.service-block-wrapper .col-md-4 {
+  margin-bottom: 36px;
+}
